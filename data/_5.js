@@ -1,1 +1,8 @@
-var json__5 = {"type":"FeatureCollection","name":"_5","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"descr":"Одна из основных точек притяжения Воскресенской  горы с активной общиной прихожан. Построен в 1765 году на месте разрушенной церкви 12 века.\n"},"geometry":{"type":"Point","coordinates":[32.047538302527229,54.787336936904012]}}]}
+var json__5 = {
+"type": "FeatureCollection",
+"name": "_5",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Дом-коммуна", "descr": "Единственный в РОссии дом-коммуна в виде башни. Памятник архитектуры, стиль: конструктивизм." }, "geometry": { "type": "Point", "coordinates": [ 32.04892265, 54.7854233 ] } }
+]
+}

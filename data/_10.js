@@ -1,1 +1,8 @@
-var json__10 = {"type":"FeatureCollection","name":"_10","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"descr":null},"geometry":{"type":"Point","coordinates":[32.045404255416322,54.785184678048026]}},{"type":"Feature","properties":{"descr":"Входит в топ-80 лучших вузов России по версии HeadHunter за 2022−2023 год."},"geometry":null},{"type":"Feature","properties":{"descr":"Входит в топ-80 лучших вузов России по версии HeadHunter за 2022−2023 год."},"geometry":null}]}
+var json__10 = {
+"type": "FeatureCollection",
+"name": "_10",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Кинотеатр «Октябрь»", "descr": "Наследие прошлых лет, которое скоро может превратиться в креативный центр. Или еще что-то." }, "geometry": { "type": "Point", "coordinates": [ 32.053180678333312, 54.777711974007914 ] } }
+]
+}

@@ -1,1 +1,10 @@
-var json__8 = {"type":"FeatureCollection","name":"_8","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"descr":"Природная вода, которую можно пить и набрать с собой. Церковь планирует построить к нему лестницу и оборудовать купель."},"geometry":{"type":"Point","coordinates":[32.04860027474102,54.787113607298963]}}]}
+var json__8 = {
+"type": "FeatureCollection",
+"name": "_8",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Смоленский государственный университет", "descr": "Входит в топ-80 лучших вузов России по версии HeadHunter за 2022−2023 год." }, "geometry": { "type": "Point", "coordinates": [ 32.045404255416322, 54.785184678048026 ] } },
+{ "type": "Feature", "properties": { "name": "Смоленский государственный университет", "descr": "Входит в топ-80 лучших вузов России по версии HeadHunter за 2022−2023 год." }, "geometry": null },
+{ "type": "Feature", "properties": { "name": "Смоленский государственный университет", "descr": "Входит в топ-80 лучших вузов России по версии HeadHunter за 2022−2023 год." }, "geometry": null }
+]
+}
