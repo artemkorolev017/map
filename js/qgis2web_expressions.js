@@ -754,3 +754,108 @@ function fnc__specialcol_(values, context) {
 function fnc_project_color(values, context) {
     return false;
 };
+
+
+
+function exp_Merged_6rule0_eval_expression(context) {
+    // name = 'Булыжная мостовая'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['name']  == 'Булыжная мостовая');
+    } else {
+        return (feature['name']  == 'Булыжная мостовая');
+    }
+}
+
+
+function exp_Merged_6rule1_eval_expression(context) {
+    // name = 'Бункер Тухачевского'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['name']  == 'Бункер Тухачевского');
+    } else {
+        return (feature['name']  == 'Бункер Тухачевского');
+    }
+}
+
+
+function exp_Merged_6rule2_eval_expression(context) {
+    // name = 'Вознесенский монастырь'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['name']  == 'Вознесенский монастырь');
+    } else {
+        return (feature['name']  == 'Вознесенский монастырь');
+    }
+}
+
+
+function exp_Merged_6rule3_eval_expression(context) {
+    // name = 'Дом-коммуна'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['name']  == 'Дом-коммуна');
+    } else {
+        return (feature['name']  == 'Дом-коммуна');
+    }
+}
+
+
+function exp_Merged_6rule4_eval_expression(context) {
+    // name = 'Источник'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['name']  == 'Источник');
+    } else {
+        return (feature['name']  == 'Источник');
+    }
+}
+
+
+function exp_Merged_6rule5_eval_expression(context) {
+    // name = 'Планетарий'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['name']  == 'Планетарий');
+    } else {
+        return (feature['name']  == 'Планетарий');
+    }
+}
+
+
+function exp_Merged_6rule6_eval_expression(context) {
+    // name = 'Смоленский государственный университет'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['name']  == 'Смоленский государственный университет');
+    } else {
+        return (feature['name']  == 'Смоленский государственный университет');
+    }
+}
+
+
+function exp_Merged_6rule7_eval_expression(context) {
+    // name = 'Церковь Воскресения Христова'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.properties['name']  == 'Церковь Воскресения Христова');
+    } else {
+        return (feature['name']  == 'Церковь Воскресения Христова');
+    }
+}
