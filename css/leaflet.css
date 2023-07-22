@@ -559,7 +559,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	background: rgba(255, 255, 255, 0.5);
 	display: block;
 	position: relative;
-	width: auto;
+	width: 10em;
 	height: 100%;
 	padding: 5px;
 	}

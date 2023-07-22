@@ -300,7 +300,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/stones.svg',
-            iconSize: [38.0, 38.0]
+            iconSize: [75.0, 75.0]
         }),
                 interactive: true,
             };
@@ -312,7 +312,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/bunker.svg',
-            iconSize: [38.0, 38.0]
+            iconSize: [75.0, 75.0]
         }),
                 interactive: true,
             };
@@ -324,7 +324,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/church_2.svg',
-            iconSize: [38.0, 38.0]
+            iconSize: [75.0, 75.0]
         }),
                 interactive: true,
             };
@@ -336,7 +336,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/kommune.svg',
-            iconSize: [38.0, 38.0]
+            iconSize: [75.0, 75.0]
         }),
                 interactive: true,
             };
@@ -348,7 +348,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/saint_spirit.svg',
-            iconSize: [38.0, 38.0]
+            iconSize: [75.0, 75.0]
         }),
                 interactive: true,
             };
@@ -360,7 +360,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/planetarium.svg',
-            iconSize: [38.0, 38.0]
+            iconSize: [75.0, 75.0]
         }),
                 interactive: true,
             };
@@ -372,7 +372,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/смолгу.svg',
-            iconSize: [38.0, 38.0]
+            iconSize: [75.0, 75.0]
         }),
                 interactive: true,
             };
@@ -384,7 +384,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/church.svg',
-            iconSize: [38.0, 38.0]
+            iconSize: [75.0, 75.0]
         }),
                 interactive: true,
             };
@@ -409,7 +409,7 @@
           //open popup
           var popup = L.popup()
             .setLatLng(e.latlng)
-            .setContent('<h1 style="color: grey; margin-bottom: 0;">'+ feature.properties.descr +'</h1>')
+            .setContent('<b style="color: grey; margin-bottom: 0;">'+ feature.properties.name +'</b>'+'<p style="color: grey; margin-bottom: 0;">'+ feature.properties.descr +'</p>')
             //.openPopup();  I tried this one but suspect it's not that simple
             .openOn(map); //This one can't work with Vue2Leaflet
           });
@@ -425,7 +425,7 @@
         var cluster_Merged_6 = new L.MarkerClusterGroup({showCoverageOnHover: true,
             spiderfyDistanceMultiplier: 2,
             iconCreateFunction: function(cluster) {
-		            return L.divIcon({ html: '<p style="font-size: 12px;">Воскресенская гора <br></p><b style="font-size: 18px;">' + cluster.getChildCount() + '</b> мест', iconSize: 'auto' });
+		            return L.divIcon({ html: '<b style="font-size: 12px;">ВОСКРЕСЕНСКАЯ ГОРА </b><br><b style="font-size: 18px;">' + cluster.getChildCount() + '</b> мест(a)', iconSize: 'auto' });
     }});
         cluster_Merged_6.addLayer(layer_Merged_6);
 
